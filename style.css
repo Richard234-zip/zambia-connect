@@ -1,0 +1,261 @@
+.container{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 70vh;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 15px 15px 15px ;
+}
+li a{
+    text-decoration: none;
+    font-style: none;
+    display: block;
+    background-color: floralwhite;
+    border-radius: 10px ;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+   
+}
+li {
+   text-align: center;
+    list-style: none;
+}
+a:hover{
+    background-color: peru;
+    text-decoration: solid;
+    cursor: pointer;
+}
+h1{
+    color:peru ;
+    text-decoration-color: transparent;
+}
+.finder{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: space-between;
+    background-color: lightgray;
+    border: none;
+    color:black;
+    text-transform: capitalize;
+    width: 80vh;
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 10px;
+    box-shadow: 15px 15px 15px ;
+}
+input[type="text"],input[type="password"],input[type="number"],input[type="date"],input[type="skills"],input[type="location"],input[type="button"]{
+    width: 40vh;
+    margin: 10px;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+}
+input:hover{
+    background-color:peru;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+#f{
+    width: 50vh;
+    border-radius: 20px;
+    border: none;
+     height: 4.5vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline: inset;
+    border-width: 2opx;
+    background-color: whitesmoke;
+    color: black;
+}
+#f:hover{
+background-color: peru;
+cursor: pointer;
+}
+.love{
+    text-decoration: double;
+    background-color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 80vh;
+    outline: peru;
+    text-transform: capitalize;
+    text-align: center;
+    width: 80vh;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 15px 15px 15px ;
+}
+input[type="text"],input[type="password"],input[type="number"],input[type="marital"],input[type="location"],input[type="bio"],input[type="gender"],input[type="email"]{
+    width: 70vh;
+    text-decoration: none;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: none;
+}
+#d{
+    width: 50vh;
+    border-radius: 20px;
+    border: none;
+     height: 4.5vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline: inset;
+    border-width: 2opx;
+    background-color: peru;
+    color: black;
+}
+#m:hover{
+background-color: darkorange;
+cursor: pointer;
+}
+#m{
+    width: 50vh;
+    border-radius: 20px;
+    border: none;
+     height: 4.5vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline: inset;
+    border-width: 2opx;
+    background-color: rgb(226, 193, 160);
+    color: black;
+}
+
+#l{
+    width: 70vh;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline: none;
+    border-width: 0 px;
+    background-color: peru;
+    color: black;
+}
+#l:hover{
+background-color: darkorange;
+cursor: pointer;
+}
+.login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 800;
+    background-color: whitesmoke;
+    width: 80vh;
+    text-align: center;
+    box-shadow: 15px 15px 15px ;
+}
+#login{
+    background-color:darkgreen;
+    border: none;
+    border-radius: 10px;
+    width: 70vh;
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    outline: none;
+
+}
+#login:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.dashboard a{
+    display: block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    background-color: lightslategray;
+    text-transform: capitalize;
+    margin: 5px;
+    width: 20vh;
+    font-style: none;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-style: oblique;
+
+}
+a:hover{
+    background-color : peru ;
+    cursor: zoom-out;
+}
+.profile {
+    border: solid;
+    width: 40vh;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 5px ;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+.admin{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border: none;
+    width: 80vh;
+    background-color:gray;
+    padding: 10px;
+    margin: 4px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
+    transition: 0.5;
+}
+
+#admin{
+    background-color: gainsboro;
+    cursor: pointer;
+    width: 70vh;
+    font-style: oblique;
+    height: 4.5vh;
+    border-radius: 20px;
+    text-overflow: clip;
+    color: black;
+}
+#admin:hover{
+    background-color: peru;
+    cursor: pointer;
+    width: 70vh;
+    font-style: oblique;
+    height: 4.5vh;
+    border-radius: 20px;
+    text-overflow: clip;
+
+}
+#boss{
+    background-color:white;
+    width: 20vh;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-transform: capitalize;
+
+}
+#boss:hover{
+    background-color: crimson;
+    cursor: pointer;
+    
+
+}
